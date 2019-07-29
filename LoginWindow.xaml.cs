@@ -22,7 +22,6 @@ namespace BankManagementSystem
         public LoginWindow()
         {
             InitializeComponent();
-            WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
         }
     }
 }

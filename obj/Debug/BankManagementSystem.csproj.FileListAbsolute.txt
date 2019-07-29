@@ -15,3 +15,13 @@ C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\De
 C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\BankManagementSystem.pdb
 C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\LoginWindow.g.cs
 C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\LoginWindow.baml
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignColors.dll
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignXaml.DialogsHelper.dll
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\ShowMeTheXAML.dll
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignColors.pdb
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\MaterialDesignXaml.DialogsHelper.pdb
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\App.baml
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\BankManagementSystem.csproj.CopyComplete
