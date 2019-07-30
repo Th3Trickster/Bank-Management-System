@@ -67,6 +67,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ButtonWithTextAndImage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -78,6 +82,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ButtonWithTextAndImage.xaml.cs">
+      <DependentUpon>ButtonWithTextAndImage.xaml</DependentUpon>
     </Compile>
     <Compile Include="LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
@@ -120,9 +127,18 @@
     <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Assets\Logout.png" />
+    <Resource Include="Assets\ModifyAccount.png" />
+    <Resource Include="Assets\SearchForAccount.png" />
+    <Resource Include="Assets\Deposit.png" />
+    <Resource Include="Assets\BalanceInquiry.png" />
+    <Resource Include="Assets\CloseAccount.png" />
     <Content Include="Assets\home.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Assets\Withdraw.png" />
+    <Resource Include="Assets\NewAccount.png" />
+    <Resource Include="Assets\MainWindowHome.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

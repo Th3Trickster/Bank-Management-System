@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankManagementSystem"
         mc:Ignorable="d"
-        Title="Bank Management System" Height="450" Width="800" 
+        Title="Bank Management System" Height="720" Width="1080" 
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Grid>
@@ -13,13 +13,132 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-
-        <!-- New Account -->
-        <!-- Deposit -->
-        <!-- Withdraw -->
-        <!-- Balance Inquiry -->
-        <!-- Search For Account -->
-        <!-- Modify Account -->
-        <!-- Close Account -->
+        <Border Grid.Column="0" >
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="1" RenderingBias="Quality" Opacity="0.55" BlurRadius="10"/>
+            </Border.Effect>
+            <StackPanel Grid.Column="0" Background="#FFECECEC">
+                <Rectangle Height="150" VerticalAlignment="Top">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF2281D1"/>
+                            <GradientStop Color="#FF34268A" Offset="1"/>
+                            <GradientStop Color="#FF33288B" Offset="0.546"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                
+                <!-- Buttons -->
+                <!-- TODO: ADD USER CONTROL TO AVOID DRY PRINCIPAL -->
+                <!-- Home Button -->
+                <Button Margin="15" IsDefault="True" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/MainWindowHome.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Home</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- New Account Button -->
+                <Button Margin="15" IsDefault="True" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/NewAccount.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">New Account</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Deposit Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/Deposit.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Deposit</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Withdraw Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/Withdraw.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Withdraw</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Balance Inquiry Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/BalanceInquiry.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Balance Inquiry</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Search For Account Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/SearchForAccount.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Search For Account</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Modify Account Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/ModifyAccount.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Modify Account</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Close Account Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/CloseAccount.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Close Account</TextBlock>
+                    </Grid>
+                </Button>
+                <!-- Logout Button -->
+                <Button Margin="15" HorizontalContentAlignment="Stretch">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Assets/Logout.png" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Logout</TextBlock>
+                    </Grid>
+                </Button>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>
