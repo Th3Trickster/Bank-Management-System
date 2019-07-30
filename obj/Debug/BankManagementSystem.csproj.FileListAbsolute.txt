@@ -26,3 +26,4 @@ C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\De
 C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\BankManagementSystem.exe
 C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\BankManagementSystem.pdb
 C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\bin\Debug\Assets\home.png
+C:\Users\dhowa\Dropbox\Projects\BankManagementSystem\BankManagementSystem\obj\Debug\BankManagementSystem.csprojAssemblyReference.cache
